@@ -23,6 +23,6 @@ jobs:
       - name: Create S3 bucket
         run: |
           chmod +x create-s3.sh
-          ./create-s3.sh "my-unique-elvisxyz" "us-east-1"
+          ./create-s3.sh "test-gae123" "us-east-2"
 
 
